@@ -7,7 +7,6 @@ app = FastAPI()
 def hello():
     return "Hello FastAPI"
 
-"""
 @app.get("/IsPrime/{num}")
 def is_prime(num: int):
     if num < 2:
@@ -16,4 +15,3 @@ def is_prime(num: int):
         if num % i == 0:
             return False
     return True
-"""
