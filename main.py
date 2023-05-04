@@ -15,3 +15,7 @@ def is_prime(num: int):
         if num % i == 0:
             return False
     return True
+
+@app.get("/fibonacci/{pos}")
+def fibonacci(num: int):
+    return 21
